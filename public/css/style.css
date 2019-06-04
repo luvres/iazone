@@ -1,0 +1,98 @@
+body {
+  background-color: #F1F3F3;
+}
+
+#chart-area svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#logo {
+  height:50px;
+}
+
+.navbar-brand {
+  height: 60px;
+  padding: 5px 0px;
+}
+
+.axis {
+  font: 13px sans-serif;
+}
+
+.axistime path,
+.axistime line,
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #D4D8DA;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  fill: white;
+}
+
+.line {
+  fill: none;
+  stroke: green;
+  stroke-width: 3px;
+}
+
+
+circle {
+  fill: maroon;
+  fill-opacity: 0.5;
+  /*stroke: maroon;*/
+  /*stroke-width: 2.0;*/
+}
+
+  
+.hover-line {
+  stroke: #777;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
+
+#selections .col-md-4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.focus circle {
+  fill: #F1F3F3;
+  stroke: #777;
+  stroke-width: 3px;
+}
+  
+.hover-line {
+  stroke: black;
+  stroke-width: 1px;
+  stroke-dasharray: 3,3;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+
+.configuration {
+  font-size: 0.8em;
+  width: 100px;
+  border: 2px solid #ddd;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.checkbox {
+  margin-left: 20px;
+}
+
+/*.form-control-inline {
+  display: inline;
+  width: 40px;
+  margin-right: 5px;
+}*/
